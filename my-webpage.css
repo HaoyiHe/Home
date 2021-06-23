@@ -1,0 +1,301 @@
+/* style for body in home page  */
+.body_home {
+	font-family: Times New Roman;
+	/* set background image */
+	background: url("images/cssbackground.jpg" );
+	color:white;
+}
+
+/* style all top background image  */
+.top_background{
+	width:1350px;
+	height:250px;
+	border: 1px solid #e6e6ff;
+	border-radius: 15px;
+}
+
+/* style navigater */
+.top_navigater {
+	background-color:#e6f2ff;
+	opacity:0.5;
+	overflow: hidden;
+}
+
+/* style navigator when on hover */
+.top_navigater a:hover {
+	background-color:#4da6ff;
+}
+
+/* style all link in navigater */
+.top_navigater a {
+	font-weight: bold;
+	float: left;
+	color: #00004d;
+	text-align: center;
+	padding: 10px 14px;
+	text-decoration: overline;
+	font-size: 30px;
+}
+
+/* style text under p tags */
+p {
+	color: white;
+	font-size:25;
+}
+
+/* style all text with this class to be white colored */
+.white {
+	color:white;
+}
+
+/* style the body in anime page */
+.body_anime {
+	background: url("images/bg5.jpg" );
+	color:#00134d;
+}
+
+/* style list of reasons for liking anime */
+.anime_reasons {
+	list-style-type: circle;
+	font-size:18px;
+	
+}
+
+/* style anime pictures all round and sized */
+.anime_pictures {
+	border-radius: 50%;
+	width:300px;
+	height:230px;
+}
+
+/* create effect when anime pictures are hovered */
+.anime_pictures:hover {
+	-moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+/* style table of anime description texts */
+.anime_description {
+	font-size:26px;
+	width:900px;
+	position:relative; top:-1790px; left:360px;
+}
+
+/* style all text under this class to be red ans small */
+.warnings {
+	color:red;
+	font-size: 15px;
+}
+
+/* style all text under this class to be bolded */
+.bold {
+	font-weight:bold;
+}
+
+/* style body of hobbies page */
+.body_hobbies {
+	background: url("images/bg13.jpg" );
+}
+
+/* style divison of hobbies */
+.hobbie_descriptions {
+	display: flex
+}
+
+/* style container for hobby 1 */
+.hobby_1 {
+  position: relative;
+  width: 25%;
+}
+
+/* style hobby image */
+.hobby_image_1 {
+  display: block;
+  width: 450px;
+  height: 490px;
+}
+
+/* style area of text  */
+.overlay_1 {
+  position: absolute;
+  top: 0;
+  bottom: 100;
+  left: 0;
+  right: 0;
+  height: 490px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cc99ff;
+}
+
+/* make background visible when hovered over */
+.hobby_1:hover .overlay_1 {
+  opacity: 1;
+}
+
+.text_1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* style container for hobby 2 */
+.hobby_2 {
+  position: relative; left:120px;
+  width: 25%;
+}
+
+/* style hobby image */
+.hobby_image_2 {
+  display: block;
+  width: 450px;
+  height: 490px;
+}
+
+/* style area of text  */
+.overlay_2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 490px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cc99ff;
+}
+
+/* make background visible when hovered over */
+.hobby_2:hover .overlay_2 {
+  opacity: 1;
+}
+
+/* style text box */
+.text_2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  
+/* style container for hobby 3 */
+.hobby_3 {
+  position: relative; top:5px;
+  width: 25%;
+}
+
+/* style hobby image */
+.hobby_image_3 {
+  display: block;
+  width: 450px;
+  height: 490px;
+}
+
+/* style area of text  */
+.overlay_3 {
+  position: absolute;
+  top: 0;
+  bottom: 100;
+  left: 0;
+  right: 0;
+  height: 490px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cc99ff;
+}
+
+/* make background visible when hovered over */
+.hobby_3:hover .overlay_3 {
+  opacity: 1;
+}
+
+/* style text box */
+.text_3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* style container for hobby 4 */
+.hobby_4 {
+  position: relative; top:-484px; left:455px;
+  width: 25%;
+}
+
+/* style hobby image */
+.hobby_image_4{
+  display: block;
+  width: 450px;
+  height: 490px;
+}
+
+/* style area of text  */
+.overlay_4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 490px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #cc99ff;
+}
+
+/* make background visible when hovered over */
+.hobby_4:hover .overlay_4 {
+  opacity: 1;
+}
+
+/* style text box */
+.text_4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* style contact text table in contact page */
+.contact_table {
+	font-size: 20px;
+	position: relative; left:730px; top:-410px;
+}
+
+/* style body of contact page */
+.body_contact {
+	background: url("images/bg12.jpg" );
+}
+
+/* style embedded google map */
+iframe {
+	width:600px;
+	height:450px;
+	frameborder:1px
