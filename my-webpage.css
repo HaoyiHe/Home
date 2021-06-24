@@ -299,3 +299,13 @@ iframe {
 	width:600px;
 	height:450px;
 }
+
+/*style html validater logo links*/
+html_validater {
+	height:50px;
+}
+
+/*style css validater logo links*/
+css_validater {
+	height:50px;
+}
