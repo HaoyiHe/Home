@@ -1,9 +1,7 @@
 /* style for body in home page  */
-.body_home {
+.body_home, .body_anime, .body_hobbies, .body_contact, .body_gallery {
 	font-family: Times New Roman;
-	/* set background image */
 	background: url("images/cssbackground.jpg" );
-	color:white;
 }
 
 /* style all top background image  */
@@ -48,12 +46,6 @@ p {
 	color:white;
 }
 
-/* style the body in anime page */
-.body_anime {
-	background: url("images/bg5.jpg" );
-	color:#00134d;
-}
-
 /* style list of reasons for liking anime */
 .anime_reasons {
 	list-style-type: circle;
@@ -79,7 +71,7 @@ p {
 .anime_description {
 	font-size:26px;
 	width:900px;
-	position:relative; top:-1790px; left:360px;
+	position:relative; top:-1830px; left:360px;
 }
 
 /* style all text under this class to be red ans small */
@@ -91,11 +83,6 @@ p {
 /* style all text under this class to be bolded */
 .bold {
 	font-weight:bold;
-}
-
-/* style body of hobbies page */
-.body_hobbies {
-	background: url("images/bg13.jpg" );
 }
 
 /* style divison of hobbies */
@@ -239,7 +226,7 @@ p {
 
 /* style container for hobby 4 */
 .hobby_4 {
-  position: relative; top:-484px; left:455px;
+  position: relative; top:-520px; left:455px;
   width: 25%;
 }
 
@@ -289,11 +276,6 @@ p {
 	position: relative; left:730px; top:-410px;
 }
 
-/* style body of contact page */
-.body_contact {
-	background: url("images/bg12.jpg" );
-}
-
 /* style embedded google map */
 iframe {
 	width:600px;
@@ -301,11 +283,20 @@ iframe {
 }
 
 /*style html validater logo links*/
-html_validater {
-	height:50px;
+.html_validater {
+	height:30px;
+	position:relative; top:100px;
 }
 
 /*style css validater logo links*/
-css_validater {
-	height:50px;
+.css_validater {
+	height:30px;
+	position:relative; top:100px;
+
+}
+
+/*style gallery pictures*/
+.gallery img {
+	height:300px;
+	border:4px solid #4d79ff;
 }
